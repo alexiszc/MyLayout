@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/etiqueta1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WRAP CONTENT"
+        android:textColor="#00FFF0"
+        android:background="#FF0FF0"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/etiqueta2"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    ACORDEON ROJO"
+        android:textColor="#0000FF"
+        android:background="#FF0000"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/etiqueta3"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="       3        "
+        android:textColor="#000080"
+        android:background="#00ffff"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/etiqueta4"
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="                 "
+        android:textColor="#0000FF"
+        android:background="#8000"
+        android:textSize="40dp" />
+
+
+
+
+</LinearLayout>
